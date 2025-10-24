@@ -1,0 +1,31 @@
+<div class="modal fade" id="addEventModal" tabindex="-1" aria-labelledby="addEventModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Yangi event qo‘shish</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <form id="addEventForm">
+          <div class="mb-3">
+            <label for="eventTitle" class="form-label">Sarlavha</label>
+            <input type="text" class="form-control" id="eventTitle" required>
+          </div>
+          <div class="mb-3">
+            <label for="eventDescription" class="form-label">Tavsif</label>
+            <textarea class="form-control" id="eventDescription"></textarea>
+          </div>
+          <div class="mb-3">
+            <label for="eventStart" class="form-label">Boshlanish vaqti</label>
+            <input type="datetime-local" class="form-control" id="eventStart" required>
+          </div>
+          <div class="mb-3">
+            <label for="eventEnd" class="form-label">Tugash vaqti</label>
+            <input type="datetime-local" class="form-control" id="eventEnd" required>
+          </div>
+          <button type="submit" class="btn btn-primary w-100">Qo‘shish</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
